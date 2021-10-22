@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B15E7EC62677A1AC004E16EA /* ReceiptSwiss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B15E7EC52677A1AC004E16EA /* ReceiptSwiss.jpg */; };
+		B120B1A2271D5BBC002C7BA8 /* VisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B120B1A1271D5BBC002C7BA8 /* VisionView.swift */; };
 		B171FD642677565E0018B4BE /* VisionWWDC2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171FD632677565E0018B4BE /* VisionWWDC2021App.swift */; };
-		B171FD662677565E0018B4BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171FD652677565E0018B4BE /* ContentView.swift */; };
 		B171FD682677565F0018B4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B171FD672677565F0018B4BE /* Assets.xcassets */; };
 		B171FD6B2677565F0018B4BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B171FD6A2677565F0018B4BE /* Preview Assets.xcassets */; };
 		B171FD752677565F0018B4BE /* VisionWWDC2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171FD742677565F0018B4BE /* VisionWWDC2021Tests.swift */; };
 		B171FD7F2677565F0018B4BE /* VisionWWDC2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171FD7E2677565F0018B4BE /* VisionWWDC2021UITests.swift */; };
-		B171FD8C2677573F0018B4BE /* IMG_0414.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B171FD8B2677573F0018B4BE /* IMG_0414.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B15E7EC52677A1AC004E16EA /* ReceiptSwiss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ReceiptSwiss.jpg; sourceTree = "<group>"; };
+		B120B1A1271D5BBC002C7BA8 /* VisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionView.swift; sourceTree = "<group>"; };
 		B171FD602677565E0018B4BE /* VisionWWDC2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionWWDC2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B171FD632677565E0018B4BE /* VisionWWDC2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionWWDC2021App.swift; sourceTree = "<group>"; };
-		B171FD652677565E0018B4BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B171FD672677565F0018B4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B171FD6A2677565F0018B4BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B171FD702677565F0018B4BE /* VisionWWDC2021Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionWWDC2021Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B171FD742677565F0018B4BE /* VisionWWDC2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionWWDC2021Tests.swift; sourceTree = "<group>"; };
 		B171FD7A2677565F0018B4BE /* VisionWWDC2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionWWDC2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B171FD7E2677565F0018B4BE /* VisionWWDC2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionWWDC2021UITests.swift; sourceTree = "<group>"; };
-		B171FD8B2677573F0018B4BE /* IMG_0414.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0414.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				B171FD632677565E0018B4BE /* VisionWWDC2021App.swift */,
-				B171FD652677565E0018B4BE /* ContentView.swift */,
-				B15E7EC52677A1AC004E16EA /* ReceiptSwiss.jpg */,
-				B171FD8B2677573F0018B4BE /* IMG_0414.JPG */,
+				B120B1A1271D5BBC002C7BA8 /* VisionView.swift */,
 				B171FD672677565F0018B4BE /* Assets.xcassets */,
 				B171FD692677565F0018B4BE /* Preview Content */,
 			);
@@ -234,8 +228,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15E7EC62677A1AC004E16EA /* ReceiptSwiss.jpg in Resources */,
-				B171FD8C2677573F0018B4BE /* IMG_0414.JPG in Resources */,
 				B171FD6B2677565F0018B4BE /* Preview Assets.xcassets in Resources */,
 				B171FD682677565F0018B4BE /* Assets.xcassets in Resources */,
 			);
@@ -262,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B171FD662677565E0018B4BE /* ContentView.swift in Sources */,
+				B120B1A2271D5BBC002C7BA8 /* VisionView.swift in Sources */,
 				B171FD642677565E0018B4BE /* VisionWWDC2021App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +418,7 @@
 				DEVELOPMENT_TEAM = S3MX2GB5D3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use for scan";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,6 +449,7 @@
 				DEVELOPMENT_TEAM = S3MX2GB5D3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use for scan";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

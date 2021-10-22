@@ -11,7 +11,7 @@ import SwiftUI
 struct VisionWWDC2021App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VisionView()
         }
     }
 }
